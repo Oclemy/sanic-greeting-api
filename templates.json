@@ -4,7 +4,7 @@
     {
       "id": "sanic-simple-hello",
       "categoryId": "api",
-      "icon": "fa-bolt",
+      "icon": "fa-hand-wave",
       "name": "Sanic Simplest Hello World",
       "desc": "Most inimal Sanic app with one route",
       "tier": "free",
@@ -20,6 +20,11 @@
           "name": "requirements.txt",
           "lang": "text",
           "contentUrl": "https://raw.githubusercontent.com/Oclemy/sanic-simple-hello/refs/heads/main/requirements.txt"
+        },
+         {
+          "name": "README.md",
+          "lang": "markdown",
+          "contentUrl": "https://raw.githubusercontent.com/Oclemy/sanic-simple-hello/refs/heads/main/README.md"
         }
        
       ]
