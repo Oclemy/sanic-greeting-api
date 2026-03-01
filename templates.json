@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "sanic-simple-hello",
+      "categoryId": "api",
+      "icon": "fa-bolt",
+      "name": "Sanic Simplest Hello World",
+      "desc": "Most inimal Sanic app with one route",
+      "tier": "free",
+      "demoUrl": "https://sanic-simple-hello-production.up.railway.app/",
+      "deployUrl": "https://railway.com/deploy/sanic-websocket-chat?referralCode=-Xd4K_&utm_medium=integration&utm_source=template&utm_campaign=generic",
+      "files": [
+        {
+          "name": "app.py",
+          "lang": "python",
+          "contentUrl": "https://raw.githubusercontent.com/Oclemy/sanic-simple-hello/refs/heads/main/app.py"
+        },
+        {
+          "name": "requirements.txt",
+          "lang": "text",
+          "contentUrl": "https://raw.githubusercontent.com/Oclemy/sanic-simple-hello/refs/heads/main/requirements.txt"
+        }
+       
+      ]
+    },
+    {
+      "id": "sanic-greeting-api",
+      "categoryId": "api",
+      "icon": "fa-hand-wave",
+      "name": "Sanic Greeting API",
+      "desc": "Beginner-friendly Sanic API with path parameters — greet anyone in multiple languages",
+      "tier": "free",
+      "demoUrl": "https://sanic-greeting-api-production.up.railway.app/greet/World",
+      "deployUrl": "https://railway.com/deploy/sanic-websocket-chat?referralCode=-Xd4K_&utm_medium=integration&utm_source=template&utm_campaign=generic",
+      "files": [
+        {
+          "name": "app.py",
+          "lang": "python",
+          "contentUrl": "https://raw.githubusercontent.com/Oclemy/sanic-greeting-api/refs/heads/main/app.py"
+        },
+        {
+          "name": "requirements.txt",
+          "lang": "text",
+          "contentUrl": "https://raw.githubusercontent.com/Oclemy/sanic-greeting-api/refs/heads/main/requirements.txt"
+        },
+        {
+          "name": "README.md",
+          "lang": "markdown",
+          "contentUrl": "https://raw.githubusercontent.com/Oclemy/sanic-greeting-api/refs/heads/main/README.md"
+        }
+      ]
+    }
+  ]
+}
